@@ -1,4 +1,4 @@
-# Elixir-ttimff
+# Elixir-ttimff-changes
 Elixir things that I may forget forever
 
 - Atoms are not garbage collected. That means if we create an Atom in our program, it lives forever -> Since an Atom created lives forever, it’s not a good idea to dynamically create Atoms from user input. -> A malicious user could technically max out the total number of Atoms that can be created in a system thereby bringing the system to halt.
