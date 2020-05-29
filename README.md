@@ -10,3 +10,5 @@ Elixir things that I may forget forever
 
   `[a: 1, b: 2]`
 - Unlike Keyword Lists, keys in a Map cannot be repeated
+- Elixir consider any value that other than false or nil to be true
+- and operator requires the left side operand to be true or false, while the && accept any value
